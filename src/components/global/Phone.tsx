@@ -14,11 +14,11 @@ const Phone = ({
       id="phone"
       className={
         className +
-        " phone w-[209px] lg:w-[239.09px] h-[514.22px] ring-8 rounded-3xl ring-black relative"
+        " phone min-w-[209px] lg:w-[239.09px] h-[429.22px] lg:h-[514.22px] ring-8 rounded-3xl ring-black relative"
       }
     >
       <div
-        className="w-[100px] h-[20px] bg-black rounded-b-xl absolute top-0 left-0 translate-x-[70%] z-30"
+        className="w-[80px] lg:w-[100px] h-[20px] bg-black rounded-b-xl absolute top-0 left-0 lg:translate-x-[70%] translate-x-[80%] z-30"
         id="notch"
       />
       <div
